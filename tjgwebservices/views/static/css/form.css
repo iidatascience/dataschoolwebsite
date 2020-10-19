@@ -1,0 +1,195 @@
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+	padding-top: 100px;
+	z-index: 200;
+}
+
+@media (min-width: 601px) {
+.modal {
+	padding-top: 15%;
+}
+}
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 15px auto; /* 15% from the top and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.container {
+	display: block;
+	/* margin: 20% 20%; */
+	background-color: #88919e;
+	/* padding: 5% 5%; */
+	margin: 0% 10% 0% 20%;
+	padding: 2% 5% 5% 5%;
+}
+
+/* The Close Button */
+.close {
+	/* Position it in the top right corner outside of the modal */
+	position: absolute;
+	right: 25px;
+	top: 0; 
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+}
+
+
+label {
+    width: 80%;
+    display: block;
+}
+
+input {
+    width: 80%;
+    display: block;
+}
+
+input[type="checkbox"]{
+display:inline-block;
+float:left;
+padding:0px;
+margin:0px;
+width:auto;
+}
+
+textarea {
+	width: 80%;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	resize: none;
+	overflow: auto;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+	display:none;
+	background: #f1f1f1;
+	color: #000;
+	position: relative;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+#message p {
+	padding: 5px 15px;
+	font-size: 12px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+	color: green;
+}
+
+.valid:before {
+	position: relative;
+	left: -35px;
+	content: &#10004;
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+	color: red;
+}
+
+.invalid:before {
+	position: relative;
+	left: -35px;
+	content: &#10006;
+}
+
+/* Overwrite default styles of hr */
+hr {
+	margin-bottom: 25px;
+	border: 1px dashed #9E9E9E;
+    width: 80%;
+}
+
+/* Set a style for the submit/register button */
+.loginbtn, .registerbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.loginbtn {
+	width: 200px;
+	display: block;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	/*margin: 0 auto;*/
+	float: left;
+	margin: 9px 5px;
+}
+
+.submitbtn {
+	width: 150px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0.7;
+}
+
+.loginbtn:hover, .registerbtn:hover, .submitbtn:hover {
+	opacity:1;
+}
+
+
+
+/* Add a blue text color to links */
+a {
+	color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+	background-color: #f1f1f1;
+	text-align: center;
+}

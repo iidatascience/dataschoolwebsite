@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlconfig>
+	<databases>
+		<database>
+			<configuration>
+				<hostname>{db.hostname}</hostname>
+				<dbname>{db.dbname}</dbname>
+				<dbuser>{db.dbuser}</dbuser>
+				<dbpassword>{db.dbpassword}</dbpassword>
+			</configuration>
+			<preexecutions>
+				<preexecution>SET NAMES utf8</preexecution>
+				<preexecution>SET CHARACTER SET utf8</preexecution>
+				<preexecution>SET character_set_connection=utf8</preexecution>
+			</preexecutions>
+			<queries>
+				<query type="selectusercount">SELECT COUNT(*) FROM  `ds_users` WHERE `username` = '</query>
+				<query type="selectuserid">SELECT `id` FROM  `ds_users` WHERE `username` = '</query>
+				<query type="insertuser">""INSERT INTO `ds_users` (`name`,`username`,`email`,`password`,`params`) VALUES (%s,%s,%s,%s,%s)""</query>
+				<query type="selectuserid">SELECT `id` FROM  `ds_users` WHERE `username` = '%s'</query>
+				<query type="insertuserprofile">""INSERT INTO `ds_user_profiles`(`user_id`,`region`,`profession`,`referred`, `profile_status`,`last_visited`) VALUES (%s,%s,%s,%s,'active', NOW())""</query>
+				<query type="updateuserprofile">"UPDATE `ds_user_profiles` SET `region`='%s',`profession`='%s', `referred`='%s' WHERE `user_id` = '%s'"</query>
+				<query type="insertgoal">"""INSERT INTO `ds_goals`(`creator_id`, `goal`, `submissionDate`, `startDate`, `endDate`) VALUES (%s,%s, NOW(),NOW(),NOW())"""</query>
+                <query type="insertbusinesslisting">"""INSERT INTO `ds_business_listings`(`author_id`,`url`,`contact_info`, `description`,`submissionDate`) VALUES(%s,%s, %s, %s,NOW())"""</query>
+                <query type="insertpost">"""INSERT INTO `ds_posts` (`user_id`, `blog_date`, `blog_date_gmt`, `blog_content`, `blog_title`, `blog_excerpt`, `blog_status`, `blog_modified`, `blog_modified_gmt`, `guid`, `menu_order`, `blog_type`) VALUES (%s, NOW(), NOW(), %s, %s, %s, %s, NOW(), NOW(), %s, 0, 'post')"""</query>
+			</queries>
+		</database>
+	</databases>
+</sqlconfig>

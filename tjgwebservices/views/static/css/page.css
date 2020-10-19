@@ -1,0 +1,21 @@
+#pageElement{
+	font-size: 18px;
+    line-height: 1.5;
+    font-family: Helvetica;
+    line-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#pageElement p:nth-child(even) img{
+	float: right; 
+	padding: 0px 0px 0px 5px;
+	width: 100px;
+	height: 100px;
+}
+
+#pageElement p:nth-child(odd) img{
+	float: left; 
+	padding: 0px 5px 0px 0px;
+	width: 100px;
+	height: 100px;
+}

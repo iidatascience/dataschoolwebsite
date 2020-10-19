@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+<heading>II Data School</heading>
+<headingtitle>Management Information Systems Conference</headingtitle>
+<headingdescription>TJG Web Conferences</headingdescription>
+<links>
+	<link>
+		<title>II Data School</title>
+		<url>iidataschool.com</url>
+	</link>
+</links>
+<additionallinks>
+	<link>
+		<title>Virginia DeBond Consulting</title>
+		<url>virginiadebond.com</url>
+	</link>
+	<link>
+		<title>SET Technologies</title>
+		<url>settechnologies.com</url>
+	</link>
+	<link>
+		<title>SDTR Consulting</title>
+		<url>sdtrconsulting.com</url>
+	</link>
+	<link>
+		<title>BJ Designs IT</title>
+		<url>barbarajohnson.tech</url>
+	</link>
+	<link>
+		<title>Natalie Acevedo Designer</title>
+		<url>deeplyinspireddesigns.wordpress.com</url>
+	</link>
+	<link>
+		<title>Graphic Bank Designer</title>
+		<url>www.behance.net/GraphicBank</url>
+	</link>
+	<link>
+		<title>Graphic Bank Designer</title>
+		<url>www.fiverr.com/afsanaarju</url>
+	</link>
+	<link>
+		<title>Global Knowledge Discovery</title>
+		<url>globalknowledgediscovery.com</url>
+	</link>
+	<link>
+		<title>International Knowledge Discovery</title>
+		<url>internationalknowledgediscovery.com</url>
+	</link>
+	<link>
+		<title>Ethiopia Knowledge Discovery</title>
+		<url>ethiopiaknowledgediscovery.com</url>
+	</link>
+
+</additionallinks>
+<sitelinks>
+	<link>
+		<title>II Data School</title>
+		<url>iidataschool.com</url>
+	</link>
+	<link>
+		<title>Climate</title>
+		<url>iidataclimate.com</url>
+	</link>
+	<link>
+		<title>Finance</title>
+		<url>iidatafinance.com</url>
+	</link>
+	<link>
+		<title>Medicine</title>
+		<url>iidatamedicine.com</url>
+	</link>
+	<link>
+		<title>Security</title>
+		<url>iidatasecurity.com</url>
+	</link>
+</sitelinks>
+<figures>
+<figure>
+	<title>Conference Series</title>
+	<description>Management Information Systems</description>
+		<list>
+			<element>Project Management Methodologies</element>
+			<element>Information Systems Projects Measures of Success</element>
+			<element>Emerging Management Models</element>
+		</list>
+</figure>
+<figure>
+	<title>Conference Series</title>
+	<description>Data Journalism</description>
+		<list>
+			<element>Data Visualization</element>
+			<element>Investigative Data Journalism</element>
+			<element>Data Stories</element>
+		</list>
+</figure>
+<figure>
+	<title>Conference Series</title>
+	<description>Data Analytics</description>
+		<list>
+			<element>Systems Design</element>
+			<element>Data Engineering</element>
+			<element>Big Data</element>
+		</list>
+</figure>
+</figures>
+<images>
+<image>
+	<title>Textual Analysis</title>
+	<path>img/sentiment13.png</path>
+	<description>Textual analysis allows for information extracted from textual data sources.</description>
+</image>
+<image>
+	<title>Geological Analysis</title>
+	<path>img/sentiment15.png</path>
+	<description>Geological analysis provides information extraction from topological or aerial data</description>
+</image>
+<image>
+	<title>Financial Analysis</title>
+	<path>img/sentiment17.png</path>
+	<description>Financial analysis analyzes markets and economical data</description>
+</image>
+<image>
+	<title>Image Analysis</title>
+	<path>img/imageanalysis10.png</path>
+	<description>Analysis of rasterized images</description>
+</image>
+<image>
+	<title>Sensitivity Analysis</title>
+	<path>img/sensitivity_analysis1.png</path>
+	<description>Analysis to identify components that influence a response</description>
+</image>
+
+</images>
+<articles>
+<article>
+	<title>Augmented Intelligence</title>
+	<section>Methods for supporting decision systems</section>
+</article>
+<article>
+	<title>Programming Languages</title>
+	<section>Cross platform and Internet of Things development</section>
+</article>
+<article>
+	<title>Big Data Analysis</title>
+	<section>Training on programming and data analysis</section>
+</article>
+<article>
+	<title>Artificial Intelligence</title>
+	<section>Cross platform solutions on devices and equipment</section>
+</article>
+<article>
+	<title>Knowledge Management Systems</title>
+	<section>Developing innovative solutions for extracting knowledge from data</section>
+</article>
+<article>
+	<title>Distributed Systems</title>
+	<section>Advancing techniques for handling parallel and distributed systems</section>
+</article>
+</articles>
+<bookpages>
+<bookpage>
+	<title>II Data School</title>
+	<content>II Data School provides education and training for data analysis solutions and applications for the analysis of big data.</content>
+</bookpage>
+<bookpage>
+	<title>Welcome to II Data School</title>
+	<content>II Data School is for education about the analysis of data on sustainable data management solutions.  II Data School provides configuration and communication of analytical engines.  II Data School provides for training on data analysis, data science, and big data.</content>
+</bookpage>
+<bookpage>
+	<title>II Data School</title>
+	<content>II Data School is a team of passionate people who provide data analysis services and data management services. II Data School provides services to solve the challenges of your organization.</content>
+</bookpage>
+<bookpage>
+	<title>Share and discuss innovative solutions</title>
+	<content>Some analytical project solutions include the analysis of resource data, data integrations, and real time visualizations.</content>
+</bookpage>
+<bookpage>
+	<title>Research</title>
+	<content>Compute Science Research, Resource Management, Renewable Resource Management, Analytical Processes</content>
+</bookpage>
+<bookpage>
+	<title>Requirements</title>
+	<content>Gathering requirements can include a review of potential changes, program design, and project management.</content>
+</bookpage>
+<bookpage>
+	<title>Traditional vs Modern Data Management Systems</title>
+	<content>Traditional data management have stored data in relational databases, xml stores, and comma seperated value files.  Modern data management tools are able to integrate data from a variety of sources of structured and unstructured data.</content>
+</bookpage>
+<bookpage>
+	<title>Data Migration</title>
+	<content>Data migration from one data format to another can involve changing the structure of the data.  As data management systems advance, new features might become available that also present opportunities for organizing data in a manner that is more prepared for analysis.</content>
+</bookpage>
+<bookpage>
+	<title>Data Management</title>
+	<content>Advances in big data have improved the speed and processing capabilities of database management systems.  New formats for data storage have trascended to handle large amounts of spatial, graph, and key-store data.  There have also developed refined methods for handling unstructured data.</content>
+</bookpage>
+<bookpage>
+	<title>Very Large Databases</title>
+	<content>Data as a service has increased advantages for scalability, availability, and reliability.  Very large database systems can include features such as real-time analytics capabilities.</content>
+</bookpage>
+<bookpage>
+	<title>Locking Mechanisms</title>
+	<content>Locking mechanisms ensure that records maintain consistency with concurrent transactions.  Distributed databases require improved methods for locking records.</content>
+</bookpage>
+
+</bookpages>
+</catalog>

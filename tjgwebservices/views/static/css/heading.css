@@ -1,0 +1,15 @@
+main div header h1 {
+    background-color: #8BC34A;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+main div header p:nth-of-type(1) {
+    font-size: 22px;
+    text-shadow: 2px 2px #f1f1f1;
+    background-color: #FFC107;
+    margin: 0 auto;
+    width: auto;
+	border-radius: 6px;
+}
+

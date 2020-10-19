@@ -1,0 +1,184 @@
+.calendarTable {
+	display: block;
+/*	width: 258px; */
+	border: 1px solid #8BC34A;
+	border-top: 0;
+	border-radius: 0 0 3px 3px;
+	position: relative;
+/*	margin: 60px auto;
+	padding: 4px;*/
+	font-size: 10px;
+	text-align: center;
+	border: 1px solid #8BC34A;
+	border-collapse: separate;
+	border-radius: 4px 4px 3px 3px;
+	-webkit-box-shadow: 0 1px #8BC34A;, 0 2px #14171b, 0 3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px #8BC34A;, 0 2px #14171b, 0 3px 3px rgba(0, 0, 0, 0.3);	
+	width: 100%;
+}
+
+
+.calendarHead {
+	display: block;
+	position: relative;
+	line-height: 29px;
+	background: #333941;
+	border: 1px solid #1b1e24;
+	border-bottom-color: #181b21;
+	border-radius: 3px 3px 0 0;
+	background-image: -webkit-linear-gradient(top, #414b56, #323841 50%, #2b323a 50%, #252a31);
+	background-image: -moz-linear-gradient(top, #414b56, #323841 50%, #2b323a 50%, #252a31);
+	background-image: -o-linear-gradient(top, #414b56, #323841 50%, #2b323a 50%, #252a31);
+	background-image: linear-gradient(to bottom, #414b56, #323841 50%, #2b323a 50%, #252a31);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.prev, .next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+/*    width: 28px;*/
+    width: 16px;
+
+}
+
+.prev {
+	left: 0;
+}
+
+.prev:before{
+    border-right-color: rgba(255, 255, 255, 0.1);
+    margin-left: -9px;
+    margin-top: -5px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-top: -6px;
+    border: 6px solid transparent;
+}
+
+.prev:after{
+	border-right-color: #181b21;
+    margin-left: -9px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-top: -6px;
+    border: 6px solid transparent;
+}
+
+
+.next:before {
+	border-left-color: rgba(255, 255, 255, 0.1);
+    margin-left: -3px;
+    margin-top: -5px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-top: -6px;
+    border: 6px solid transparent;
+}
+
+.next:after {
+	border-left-color: #181b21;
+    margin-left: -3px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-top: -6px;
+    border: 6px solid transparent;
+}
+
+.next {
+	right: 0;
+}
+
+.calendarDays {
+    line-height: 24px;
+    padding-bottom: 1px;
+    font-weight: bold;
+    color: #18b165;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #232833;	
+}
+
+.calendarDays ul{
+	display: inline-block;
+    list-style: none;
+}
+
+.calendarDays ul li{
+/*    width: 28px;*/
+    width: 16px;
+	display: inline-block;
+    list-style: none;
+}
+
+.calendarContent {
+    line-height: 26px;
+    padding-bottom: 1px;
+    color: #8ba0b8;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #323841;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.calendarContent ul{
+}
+
+.calendarContent ul li{
+/*    width: 28px;*/
+	width: 16px;
+	display: inline-block;
+	list-style: none;
+/*	min-width: 28px;
+	min-height: 28px;*/
+	min-width: 16px;
+	min-height: 16px;
+
+}
+
+.today {
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #F7C1C1;
+	text-shadow: 4px 3px 0px #7A7A7A;
+	color: #FFFFFF;
+	background: #F7C1C1;
+}
+div#calendarElement, div#calendarElement div,
+div#calendarElement div ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#calendarElement div ul, div#calendarElement div ul li {
+	margin: 0px;
+	padding: 4px;
+}
+
+div#calendarElement div {
+}
+
+div#calendarElement, div#calendarElement div,  
+div#calendarElement div ul, div#calendarElement div ul li {
+}
+
+
+
+div#calendarElement div ul li{
+}
