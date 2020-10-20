@@ -14,7 +14,8 @@ class SQLDoc(object):
         dbname = config.getElementsByTagName('dbname')[0].firstChild.nodeValue
         dbuser = config.getElementsByTagName('dbuser')[0].firstChild.nodeValue
         dbpassword = config.getElementsByTagName('dbpassword')[0].firstChild.nodeValue
-        d = {'hostname':hostname,'dbname':dbname,'dbuser':dbuser,'dbpassword':dbpassword}
+        dbport = config.getElementsByTagName('dbport')[0].firstChild.nodeValue
+        d = {'hostname':hostname,'dbname':dbname,'dbuser':dbuser,'dbpassword':dbpassword, 'dbport':dbport}
         return d
 
     def retrievePreExecutions(self):
