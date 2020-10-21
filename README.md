@@ -1,9 +1,9 @@
-### II Data School
+# II Data School
 
 ## dataschoolwebsite
 
 
-# Installation for the II Data School website
+### Installation for the II Data School website
 
 For installation, create a database from the sample sql
 
