@@ -144,7 +144,7 @@ class DataScienceController():
         self.s = SQLDoc(doc)
         dsdb = self.s.retrieveDatabase()
         self.form = cgi.FieldStorage()
-        self.db = psycopg2.connect(host=dsdb['hostname'],dbname=dsdb['dbname'], user=dsdb['dbuser'], password=dsdb['dbpassword'], port=5432)
+        self.db = psycopg2.connect(host=dsdb['hostname'],dbname=dsdb['dbname'], user=dsdb['dbuser'], password=dsdb['dbpassword'], port=dsdb['dbport'])
         self.message = ""
         self.username = ""
         self.argpath = arg1.split('?')[0]

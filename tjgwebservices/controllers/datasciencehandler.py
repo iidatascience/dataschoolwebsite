@@ -92,7 +92,7 @@ class WebHandler(http.server.BaseHTTPRequestHandler):
             self.s = SQLDoc(doc)
             dsdb = self.s.retrieveDatabase()
             #self.form = cgi.FieldStorage()
-            self.db = psycopg2.connect(host=dsdb['hostname'],dbname=dsdb['dbname'], user=dsdb['dbuser'], password=dsdb['dbpassword'], port=5432)
+            self.db = psycopg2.connect(host=dsdb['hostname'],dbname=dsdb['dbname'], user=dsdb['dbuser'], password=dsdb['dbpassword'], port=dsdb['dbport'])
             db =self.db
             cur = db.cursor()
             content_length = int(self.headers['Content-Length'])
